@@ -1,14 +1,878 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "percentageDiff": "-40",
+    "diff": "-575.00",
+    "accountBalanceList": [{
+            "balance": "871.00",
+            "type": "AVAILABLE"
+        }, {
+            "balance": "871.00",
+            "type": "ACCOUNT"
+        }
+    ],
+    "transactionList": [{
+            "accountingTransactionReasonName": "48",
+            "accountingTransactionReasonDescription": "48",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-06-12",
+            "valueDate": "2020-06-12",
+            "amount": "5.00",
+            "amountCurrency": "EUR",
+            "description": "BONIFICO A VOSTRO FAVORE BONIFICO SEPA DA  BENEVENTI CIRO PER  LUCE COMM              0,00 SPESE              0,00 TRN 1201201642046497",
+            "tipologyId": "116",
+            "reference": "BENEVENTI CIRO",
+            "operationAccountType": "C1",
+            "operationType": "IN",
+            "trn": "",
+            "pfmTransactionId": "16683",
+            "pfmCategoryId": "325",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "- "
+                }, {
+                    "label": "Causale",
+                    "value": "Luce "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201642046497"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-06-03",
+            "valueDate": "2020-06-03",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  CASA COMM              0,00 SPESE              0,00 TRN 1201201552044164",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201552044164",
+            "pfmTransactionId": "16508",
+            "pfmCategoryId": "179",
+            "pfmRootCategoryId": "0",
+            "pfmComment": "Diesel",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Casa "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201552044164"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "152",
+                    "score": "0.9"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-06-03",
+            "valueDate": "2020-06-03",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  ARDUINO TRENTINO PER  CASA COMM              0,00 SPESE              0,00 TRN 1201201552044177",
+            "tipologyId": "116",
+            "reference": "Arduino Trentino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201552044177",
+            "pfmTransactionId": "16510",
+            "pfmCategoryId": "152",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT87K0200809500000420131457 "
+                }, {
+                    "label": "Causale",
+                    "value": "Casa "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201552044177"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "152",
+                    "score": "0.9"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-10.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  LUCE COMM              0,00 SPESE              0,00 TRN 1201201502044127",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044127",
+            "pfmTransactionId": "16457",
+            "pfmCategoryId": "168",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Luce "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044127"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "10.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "168",
+                    "score": "0.8"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  RISTORANTE COMM              0,00 SPESE              0,00 TRN 1201201502044128",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044128",
+            "pfmTransactionId": "16458",
+            "pfmCategoryId": "247",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Ristorante "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044128"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "247",
+                    "score": "0.8"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  RISTORANTE COMM              0,00 SPESE              0,00 TRN 1201201502044129",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044129",
+            "pfmTransactionId": "16460",
+            "pfmCategoryId": "247",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Ristorante "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044129"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "247",
+                    "score": "0.8"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  GAS COMM              0,00 SPESE              0,00 TRN 1201201502044130",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044130",
+            "pfmTransactionId": "16459",
+            "pfmCategoryId": "167",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Gas "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044130"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "167",
+                    "score": "0.8"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-10.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  LUCE COMM              0,00 SPESE              0,00 TRN 1201201502044131",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044131",
+            "pfmTransactionId": "16465",
+            "pfmCategoryId": "134",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Luce "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044131"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "10.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "168",
+                    "score": "0.8"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  CINEMA COMM              0,00 SPESE              0,00 TRN 1201201502044132",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044132",
+            "pfmTransactionId": "16467",
+            "pfmCategoryId": "245",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Cinema "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044132"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "245",
+                    "score": "0.8"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  GAS COMM              0,00 SPESE              0,00 TRN 1201201502044133",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044133",
+            "pfmTransactionId": "16466",
+            "pfmCategoryId": "167",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Gas "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044133"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "167",
+                    "score": "0.8"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  MACCHINA COMM              0,00 SPESE              0,00 TRN 1201201502044134",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044134",
+            "pfmTransactionId": "16468",
+            "pfmCategoryId": "294",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Macchina "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044134"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "294",
+                    "score": "0.45"
+                }, {
+                    "categoryId": "175",
+                    "score": "0.4"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  RISTORANTE COMM              0,00 SPESE              0,00 TRN 1201201502044135",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044135",
+            "pfmTransactionId": "16469",
+            "pfmCategoryId": "247",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Ristorante "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044135"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "247",
+                    "score": "0.8"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-29",
+            "valueDate": "2020-05-29",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  TRENO COMM              0,00 SPESE              0,00 TRN 1201201502044136",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201502044136",
+            "pfmTransactionId": "16470",
+            "pfmCategoryId": "188",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Treno "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201502044136"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "188",
+                    "score": "0.8"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-27",
+            "valueDate": "2020-05-27",
+            "amount": "-500.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  CASA COMM              0,00 SPESE              0,00 TRN 1201201482044055",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201482044055",
+            "pfmTransactionId": "16456",
+            "pfmCategoryId": "152",
+            "pfmRootCategoryId": "0",
+            "pfmComment": "affitto",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Casa "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201482044055"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "500.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "152",
+                    "score": "0.9"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-26",
+            "valueDate": "2020-05-26",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GIORDANA ARCURI PER  CASA COMM              0,00 SPESE              0,00 TRN 1201201472044033",
+            "tipologyId": "116",
+            "reference": "Giordana Arcuri",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201472044033",
+            "pfmTransactionId": "16444",
+            "pfmCategoryId": "152",
+            "pfmRootCategoryId": "0",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT61U0200809500000420044860 "
+                }, {
+                    "label": "Causale",
+                    "value": "Casa "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201472044033"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "152",
+                    "score": "0.9"
+                }
+            ],
+            "typologyType": "SEPA"
+        }, {
+            "accountingTransactionReasonName": "208",
+            "accountingTransactionReasonDescription": "208",
+            "accountingTransactionReasonType": "internalReason",
+            "bookDate": "2020-05-26",
+            "valueDate": "2020-05-26",
+            "amount": "-5.00",
+            "amountCurrency": "EUR",
+            "description": "DISPOSIZIONE DI BONIFICO BONIFICO SEPA A  GORI CRISPINO PER  VACANZE COMM              0,00 SPESE              0,00 TRN 1201201472044009",
+            "tipologyId": "116",
+            "reference": "Gori Crispino",
+            "operationAccountType": "C1",
+            "operationType": "OUT",
+            "trn": "1201201472044009",
+            "pfmTransactionId": "16445",
+            "pfmCategoryId": "244",
+            "pfmRootCategoryId": "0",
+            "pfmComment": "ciao",
+            "pfmTags": [],
+            "transactionData": [{
+                    "label": "T1",
+                    "value": "T1"
+                }, {
+                    "label": "Ordinante",
+                    "value": "-"
+                }, {
+                    "label": "IBAN Beneficiario",
+                    "value": "IT34C0200809500000420041334 "
+                }, {
+                    "label": "Causale",
+                    "value": "Vacanze "
+                }, {
+                    "label": "Tipo Bonifico",
+                    "value": "ORDINARIO "
+                }, {
+                    "label": "Tipologia Bonifico",
+                    "value": "- "
+                }, {
+                    "label": "TRN",
+                    "value": "1201201472044009"
+                }, {
+                    "label": "Canale",
+                    "value": "005"
+                }
+            ],
+            "amountDetail": {
+                "absoluteNetAmount": "5.0",
+                "commissions": "0.0"
+            },
+            "detectedCategories": [{
+                    "categoryId": "244",
+                    "score": "0.6333"
+                }, {
+                    "categoryId": "253",
+                    "score": "0.2667"
+                }
+            ],
+            "typologyType": "SEPA"
+        }
+    ]
 }
